@@ -1,0 +1,145 @@
+* {
+
+    font-family: sahel;
+}
+
+body {
+    background-image: url(../img/pexels-eberhard-grossgasteiger-1421903.jpg   );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    margin-bottom: 8%;
+
+}
+
+.center {
+    width: 400px;
+    height: 410px;
+    top: 50%;
+    right: 21%;
+    position: absolute;
+    border-radius: 15px;
+    padding: 50px 30px;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000; 
+}
+
+.user input,
+.pass input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #dddddd ;
+    color: #ccc;
+    opacity: 1;
+    font-size: 16px;
+    height: 30px;
+}
+
+.pass {
+    margin: 15px 0 20px 0;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+    outline: none;
+    background: #6d07ce;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.forget-pass a {
+    color: white;
+}
+
+.forget-pass {
+    display: inline;
+}
+
+.forget-pass a{
+    text-decoration: none;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 14px;
+}
+
+.forget-pass a:hover{
+    opacity: 1;
+}
+
+.remember-check {
+    display: inline;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-left: 114px;
+    margin-right: 4px;
+    color: #fff;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.logo a {
+font-size: 22px;
+    margin: 0 5px;
+}
+
+.logo a i{
+    padding: 8px 0;
+}
+
+.fa-spotify {
+    color: #1db954;
+}
+
+.fa-telegram {
+    color: #0088cc;
+}
+
+.fa-instagram {
+    color: #e1306c;
+}
+
+.fa-linkedin {
+    color: #00a0dc;
+}
+
+#overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.yasin{
+    text-align: center;
+    color: #fff;
+    user-select: none;
+    margin-top: 20px;
+    opacity: 0.7;
+}
